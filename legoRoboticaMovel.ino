@@ -550,6 +550,7 @@ void loop()
           lcd.setCursor(0,1);
           lcd.print("Cor: Erro       ");          
           //Atualiza tempo de referência
+          //
           tempo_anterior = millis();
         }
       }
